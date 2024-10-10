@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-family: var(--Italic-black), sans-serif;
+}
+.activeLink::after{
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url("./../images/icons/pageDetector.svg");
+  width: 12px;
+  height: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
