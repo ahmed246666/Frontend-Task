@@ -9,9 +9,9 @@ import {
   CarouselPrevious,
 } from "../ui/carousel";
 import Image from "next/image";
-import ImageRecently1 from "@/images/ImageRecently1.png";
-import ImageRecently2 from "@/images/ImageRecently2.png";
-import ImageRecently3 from "@/images/ImageRecently3.png";
+import ImageRecently1 from "@/images/ImageRecently1.webp";
+import ImageRecently2 from "@/images/ImageRecently2.webp";
+import ImageRecently3 from "@/images/ImageRecently3.webp";
 import logoPropertyOwner from "@/images/logoPropertyOwner.png";
 import locationImage from "@/images/icons/location.svg";
 import bathroomImage from "@/images/icons/bathroom.svg";

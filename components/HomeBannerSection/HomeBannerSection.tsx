@@ -1,7 +1,7 @@
 import React from "react";
 import MainButton from "../ui/MainButton";
 import Image from "next/image";
-import HomeBannerImage from "@/images/HomeBannerImage.png";
+import HomeBannerImage from "@/images/HomeBannerImage.webp";
 
 const HomeBannerSection = () => {
   return (

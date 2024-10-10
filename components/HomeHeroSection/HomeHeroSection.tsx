@@ -1,4 +1,4 @@
-import HeroImage from "@/images/HomeHero.png";
+import HeroImage from "@/images/HomeHero.webp";
 import MainButton from "../ui/MainButton";
 
 const HomeHeroSection = () => {

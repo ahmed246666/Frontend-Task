@@ -1,6 +1,6 @@
 import React from "react";
 import MainButton from "../ui/MainButton";
-import HomeSecondBannerImage from "@/images/BannerKeys.png";
+import HomeSecondBannerImage from "@/images/BannerKeys.webp";
 import Image from "next/image";
 
 const HomeSecondBannerSection = () => {

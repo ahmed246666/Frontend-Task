@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import emailImage from "@/images/icons/email.svg";
 import phoneImage from "@/images/icons/phone.svg";
-import contactUsImage from "@/images/contactUsImage.png";
+import contactUsImage from "@/images/contactUsImage.webp";
 import Input from "../ui/Input";
 import MainButton from "../ui/MainButton";
 import { useHandlePages } from "@/hooks/apiHandlers/useHandlePages";

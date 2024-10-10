@@ -1,5 +1,5 @@
 import Image from "next/image";
-import FeatureImage from "@/images/Feature.png";
+import FeatureImage from "@/images/Feature.webp";
 import GreatSupport from "@/images/icons/GreatSupport.svg";
 import GreatSupport2 from "@/images/icons/GroupGreatSupport.svg";
 import MortgageServices from "@/images/icons/MortgageServices.svg";

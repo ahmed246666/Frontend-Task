@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { useHandleAuth } from "@/hooks/apiHandlers/useHandleAuth";
 import Image from "next/image";
-import AuthImage from "@/images/AuthImage.png";
+import AuthImage from "@/images/AuthImage.webp";
 import FullLogo from "@/images/FullLogo.svg";
 import EmailIcon from "@/images/icons/email.svg";
 import KeyIcon from "@/images/icons/key.svg";
