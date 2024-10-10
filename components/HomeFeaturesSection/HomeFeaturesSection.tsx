@@ -45,7 +45,7 @@ const HomeFeaturesSection = () => {
       </div>
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mt-16 lg:mt-20">
-        {features.map((feature, index) => (
+        {features.map((feature) => (
           <div
             key={feature.label}
             className={`flex flex-col items-center gap-4 md:gap-6 justify-center lg:border-r last:border-r-0 `}

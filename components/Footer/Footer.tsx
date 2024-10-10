@@ -28,12 +28,12 @@ const Footer = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setResponse({ data: null, message: "", status: "fail" });
-
+  
     if (!validateForm()) return;
-
+  
     const data = new FormData();
     data.append("email", email);
-
+  
     handlePostNewsLetter(data).then((response) => {
       setResponse(
         response as {
@@ -42,10 +42,12 @@ const Footer = () => {
           status: "fail" | "success";
         }
       );
-      response.status === "fail" && setError(response.message);
-
+      if (response.status === "fail") {
+        setError(response.message);
+      }
     });
   };
+  
 
   const validateForm = () => {
     setError(null);

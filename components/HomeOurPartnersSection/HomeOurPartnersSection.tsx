@@ -6,7 +6,7 @@ import React, { useState } from "react";
 
 const HomeOurPartnersSection = () => {
   const [partners, setPartners] = useState<Partner[]>([]);
-  const { handleGetOurPartners, loading } = useHandlePages();
+  const { handleGetOurPartners } = useHandlePages();
 
   React.useEffect(() => {
     handleGetOurPartners().then((data) => {

@@ -28,8 +28,7 @@ const Input = ({
   value?: string;
   icon?: string;
   isPassword?: boolean;
-  onChange?: (e: any) => void;
-}) => {
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void}) => {
   const [showPass, setShowPass] = useState(false);
   return (
     <div>

@@ -100,7 +100,7 @@ const HomeContactSection = () => {
       <div className="container mx-auto px-6 py-[75px] md:py-[125px] grid lg:grid-cols-2 lg:gap-10">
         <div className="space-y-10">
           <h2 className="text-4xl max-md:text-3xl font-bold leading-relaxed max-w-[500px] max-lg:mx-auto max-lg:text-center">
-            We'll help you find a place you'll love!
+            We&apos;ll help you find a place you&apos;ll love!
           </h2>
           <div className="lg:space-y-10 max-lg:flex gap-6 flex-wrap items-center justify-evenly">
             <div className="flex gap-6 items-center">
