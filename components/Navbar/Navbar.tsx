@@ -111,7 +111,7 @@ const Navbar = () => {
             <SheetTrigger>
               <Menu size={"30px"} color="#FFFFFF" />
             </SheetTrigger>
-            <SheetContent className=" flex items-center ">
+            <SheetContent className=" flex flex-col justify-center gap-14">
               <ul className="flex flex-col gap-8">
                 {routes.map((item) => (
                   <li key={item.name} className="">
@@ -145,6 +145,13 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
+              <Link href="/login">
+                <MainButton
+                  label="Become an ambassador"
+                  mode="dark"
+                  loading={false}
+                />
+              </Link>
             </SheetContent>
           </Sheet>
         </div>

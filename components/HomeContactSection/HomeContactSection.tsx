@@ -102,7 +102,7 @@ const HomeContactSection = () => {
           <h2 className="text-4xl max-md:text-3xl font-bold leading-relaxed max-w-[500px] max-lg:mx-auto max-lg:text-center">
             We&apos;ll help you find a place you&apos;ll love!
           </h2>
-          <div className="lg:space-y-10 max-lg:flex gap-6 flex-wrap items-center justify-evenly">
+          <div className="lg:space-y-10 max-lg:flex gap-6 flex-wrap items-center justify-evenly max-sm:justify-between max-sm:w-[180px] max-sm:mx-auto">
             <div className="flex gap-6 items-center">
               <Image src={phoneImage} alt="Phone" />
               <div className="space-y-2">

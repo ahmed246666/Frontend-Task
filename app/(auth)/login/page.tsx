@@ -119,7 +119,7 @@ const Login = () => {
         />
 
         <p className="tracking-wider text-center max-md:text-sm">
-          Don’t have an account?{" "}
+          Don&apos;t have an account?{" "}
           <Link
             className="text-black font-medium tracking-normal cursor-pointer"
             href="/register"
